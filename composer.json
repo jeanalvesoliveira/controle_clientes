@@ -1,0 +1,15 @@
+{
+    "name": "jean/controle_clientes",
+    "autoload": {
+        "psr-4": {
+            "Jean\\ControleClientes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean Alves de Oliveira",
+            "email": "jeanalvesoliveira@gmail.com"
+        }
+    ],
+    "require": {}
+}

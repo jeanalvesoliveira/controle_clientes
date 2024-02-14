@@ -13,10 +13,10 @@ class Database {
         $dsn = "mysql:host={$config['host']}; port={$config['port']}; dbname={$config['database']}";
         
         try{
-            $conn = new PDO($dsn, $config['user'], $config['password']);    
-            echo "Banco de dados conectado com sucesso!";
+            self::$conn = new PDO($dsn, $config['user'], $config['password']);    
+            echo "Banco de dados conectado com sucesso!<br>";
         } catch(PDOException $e){
-            echo "Erro na conexão com o banco de dados: {$e->getMessage()}";
+            echo "Erro na conexão com o banco de dados: {$e->getMessage()}<br>";
         }
     }
 

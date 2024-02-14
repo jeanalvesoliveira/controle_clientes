@@ -1,4 +1,8 @@
 <?php
+/*
+    COPIE E COLE ESTE ARQUIVO NESTA PASTA COM O NOME db.php
+    E ADICIONE SUAS CONFIGURAÇÕES DE ACESSO AO BANCO DE DADOS
+*/
 
 $config = [
     "host"      => "",

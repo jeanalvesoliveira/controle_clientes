@@ -14,9 +14,7 @@ class ClienteController{
         $this->conn = Database::getConn();
     }
 
-
     public function insert(Cliente $cliente){
-        var_dump($this->conn);
         $dadosInsert = [
             "nome"      =>$cliente->getNome(),
             "cpf"       =>$cliente->getCpf(),
